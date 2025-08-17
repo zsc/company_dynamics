@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/highlight.css">
+    <script src="assets/script.js" defer></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']],
+                processEscapes: false,
+                packages: {'[+]': ['noerrors', 'ams']}
+            },
+            options: {
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            },
+            loader: {
+                load: ['[tex]/noerrors', '[tex]/ams']
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h3>目录</h3>
+                <button id="sidebar-toggle" class="sidebar-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="sidebar-search">
+                <input type="text" id="sidebar-search-input" placeholder="搜索..." autocomplete="off">
+            </div>
+            <div id="tree-container">
+                <nav class="tree-nav" role="tree">
+                    <div class="tree-item " >
+                        <a href="index.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">技术公司发展动力学：从崛起到衰落的系统性分析</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter1.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第1章：黎明期（1995-2000）——门户网站与搜索引擎的诞生</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter2.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第2章：泡沫与重生（2000-2005）——从废墟中崛起</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter3.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第3章：平台化时代（2005-2010）——社交网络与云计算</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter4.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第4章：移动浪潮（2010-2015）——智能手机改变一切</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter5.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第5章：AI觉醒（2015-2020）——算法驱动的新时代</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter6.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第6章：大模型纪元（2020-2025）——AI的范式转变</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter7.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第7章：公司生命周期的七个阶段</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter8.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第8章：突破竞争重围——差异化战略的艺术</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter9.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第9章：现金牛的寻找与护城河构建</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter10.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第10章：时间差战略——在别人看不懂时布局</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter11.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第11章：技术浪潮的把握——顺势而为</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter12.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第12章：组织文化的力量</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter13.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第13章：领导者的决策时刻</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter14.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第14章：技术投入的长期主义</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter15.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第15章：衰落的征兆与重生的机会</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter16.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第16章：未来展望——下一个十年的变量</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item " >
+                        <a href="chapter17.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">第17章：公司兴衰时间轴——互联网时代的完整图谱</span>
+                        </a>
+                    </div>
+                
+                    <div class="tree-item active" >
+                        <a href="CLAUDE.html" class="tree-link">
+                            <span class="tree-icon">📄</span>
+                            <span class="tree-title">Untitled</span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        
+        <main class="content">
+            <article>
+                <p>（交流可以用英文，所有文档中文，保留这句）</p>
+<h2 id="_1">项目目标</h2>
+<p>写一份技术公司发展动力学的中文markdown
+分为多个部分，每个部分覆盖一个主题，包含多章。讨论规律时尽量使用知名公司的发展轨迹作为例子。
+有以下部分：</p>
+<ol>
+<li>公司生命期抽象，比如：初创 challenger、发展、突破瓶颈、再发展、达峰、衰落、中兴 reinvent、衰落、灭亡(这里每个阶段都可能因为突发问题，或者早衰而灭亡)。</li>
+<li>公司间的差异化和从竞争者中突围：spacex 的快速迭代和第一性原理哲学（挑战行业固有思维），字节/google ads的疯狂 AB test，openai 的从 rl 试错到 gpt 成功及善于运用 lead time，byd 的从电池到电车，米哈游看到了二次元人群，小米看到了屌丝人群，google 抓住www刚需的搜索引擎，tsmc 的自我限制代工从而能平台化（作为对比，samsung 搞极致垂直整合，公司左右一国资源），等等。
+  * 第一个现金牛的寻找
+  * 利用别人看不懂的时间差
+  * 极致 AB test</li>
+<li>对历史大势的理解把握：nvidia 做游戏卡到与 AI 互相成就，amazon/alibaba 抓住电商机遇(大统一市场的要求，和疫情的加速作用)</li>
+<li>公司文化与领导风格的影响，google 等公司的扁平化，huawei 的狼性和以客户为中心</li>
+<li>技术决策与投入：微软对 window nt 的坚决投入（五年），阿里的坚定去 IOE</li>
+</ol>
+<p>文件组织是 index.md + chapter1.md + ...
+适当使用 ascii art 图和表格帮助说明。</p>
+<h3 id="_2">文档结构</h3>
+<ul>
+<li>第一部分：编年史（按时间顺序）</li>
+<li>第二部分：专题深度分析</li>
+<li>包含对比表格和ASCII架构图</li>
+</ul>
+<h2 id="audience">Audience</h2>
+<p>veteran engineer</p>
+            </article>
+            
+            <nav class="page-nav"><a href="chapter17.html" class="nav-link prev">← 第17章：公司兴衰时间轴——互联网时代的完整图谱</a></nav>
+        </main>
+    </div>
+</body>
+</html>
